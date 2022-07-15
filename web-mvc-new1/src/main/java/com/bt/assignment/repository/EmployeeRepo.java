@@ -9,5 +9,5 @@ public interface EmployeeRepo {
    public Employee getEmployeeById(int empId);
    public Employee addEmployee(Employee emp);
    public Employee updateEmployee(Employee emp);
-   public boolean deleteEmployee(int empId);
+   public boolean  deleteEmployee(int empId);
 }
